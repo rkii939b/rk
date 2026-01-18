@@ -15,7 +15,7 @@ const HuggingFaceIcon = () => (
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const roles = ["Data Scientist", "ML Engineer", "AI Research Engineer"];
+  const roles = ["Electrical Engineer", "Solar System Enthusiast", "Software Developer", "Digital Ad Trafficker"];
   
   useEffect(() => {
     const role = roles[currentIndex % roles.length];
@@ -74,7 +74,7 @@ const Hero = () => {
           >
             <span className="text-primary text-lg font-medium mb-4 block">Hello!</span>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              I'm <span className="gradient-text">Raafi Riyaz</span>
+              I'm <span className="gradient-text">Robiul Kabir</span>
             </h1>
           </motion.div>
 
@@ -96,8 +96,8 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="space-y-2 mb-8"
           >
-            <p className="text-xl md:text-2xl text-foreground/90">MSc AI Graduate | Stanford Online ML Certified</p>
-            <p className="text-lg md:text-xl text-muted-foreground">With nearly 2 years of experience</p>
+            <p className="text-xl md:text-2xl text-foreground/90">MSc in Computer Simulation | Electrical Engineer</p>
+            <p className="text-lg md:text-xl text-muted-foreground">With nearly 4+ years of experience</p>
           </motion.div>
 
           <motion.div
@@ -113,7 +113,7 @@ const Hero = () => {
     className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-black"
     asChild
   >
-    <a href="https://www.linkedin.com/in/raafi-riyaz-bb2954202/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+    <a href="https://www.linkedin.com/in/mohammad-robiul-kabir-071a81138/" target="_blank" rel="noopener noreferrer" className="flex items-center">
       <Linkedin className="mr-2 h-5 w-5" />
       LinkedIn
     </a>
@@ -127,7 +127,7 @@ const Hero = () => {
     className="border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white dark:border-gray-200 dark:text-gray-200 dark:hover:bg-gray-200 dark:hover:text-black"
     asChild
   >
-    <a href="https://github.com/rafipatel" target="_blank" rel="noopener noreferrer" className="flex items-center">
+    <a href="https://github.com/rkii939b" target="_blank" rel="noopener noreferrer" className="flex items-center">
       <Github className="mr-2 h-5 w-5" />
       Github
     </a>
@@ -141,14 +141,9 @@ const Hero = () => {
     className="border-[#FEEA3B] text-[#FEEA3B] hover:bg-[#FEEA3B] hover:text-black dark:border-[#FFD700] dark:text-[#FFD700] dark:hover:bg-[#FFD700] dark:hover:text-black"
     asChild
   >
-    <a
-      href="https://huggingface.co/Rafii"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center"
-    >
-      <span className="text-2xl">🤗</span>
-      <span className="ml-2">Hugging Face</span>
+    <a href="https://drive.google.com/file/d/11Y0stqKQml0CWjdiJnpOb__iigZU5Xp7/view?usp=sharing" download className="flex items-center">
+      <Download className="mr-2 h-5 w-5" />
+      Download CV (German)
     </a>
   </Button>
 </MagneticButton>
@@ -161,9 +156,9 @@ const Hero = () => {
     className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground dark:border-secondary-dark dark:text-secondary-dark dark:hover:bg-secondary-dark/80 dark:hover:text-secondary-foreground"
     asChild
   >
-    <a href="https://docs.google.com/document/d/1sNF1vzBpYc1qbRfekIac0mYG5mOGdx-V/export?format=pdf" download className="flex items-center">
+    <a href="https://drive.google.com/file/d/1_PrbboyT2YYLP3lAuMEIxjZWcFg89hFh/view?usp=sharing">
       <Download className="mr-2 h-5 w-5" />
-      Download CV
+      Download CV (English)
     </a>
   </Button>
 </MagneticButton>

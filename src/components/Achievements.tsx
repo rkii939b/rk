@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useScrollReveal, scrollVariants } from "@/hooks/use-scroll-reveal";
 import { Trophy, Award, Target, Briefcase } from "lucide-react";
 import InteractiveElement from "@/components/InteractiveElement";
+import { FaResearchgate, FaSolarPanel } from "react-icons/fa6";
 
 const Achievements = () => {
   const { ref, isInView } = useScrollReveal();
@@ -9,30 +10,25 @@ const Achievements = () => {
   const achievements = [
     {
       icon: Target,
-      title: "AI UK 2025 Invitation",
-      date: "March 2025",
-      description: "Invited as AI specialist to AIUK 2025 at The Alan Turing Institute by Harmony research team in recognition of contributions to their mental health production tool. Compensated £1,250 for two-day event.",
-      link: "https://www.turing.ac.uk/ai-uk",
+      title: "Noble Banadda International Summer School on Sustainability 2025",
+      date: "September 2025",
+      description: "Selected to attend the prestigious Noble Banadda International Summer School on Sustainability 2025, hosted by HKA Karlsruhe and the OST - Ostschweizer Fachhochschule (Rapperswil-Jona, Switzerland).",
+      link: "https://www.ost.ch/en/studium/technik/bachelor-erneuerbare-energien-und-umwelttechnik/praxisnaehe/translate-to-english-international-summer-school-on-sustainability",
     },
     {
-      icon: Award,
-      title: "NLP Challenge Winner",
-      date: "Jan 2025",
-      description: "Won Harmony NLP Challenge with £250 prize by improving the algorithm for psychology survey question similarity ratings, reducing MAE from 24 to 20.544. Organised by researchers from UCL, Ulster University, and Fast Data Science.",
-      link: "https://harmonydata.ac.uk/matching-challenge-winner-announcement/",
+      icon: FaResearchgate,
+      title: "Simulation and Analysis of Metal Oxide Surge Arrester using Electromagnetic Transient Program (EMTP)",
+      date: "February 2017",
+      description: "Data on characteristics of metal-oxide surge arresters indicates that for fast front surges, those with rising times less than 8μs, the peak of the voltage wave occurs before the peak of the current wave, and the residual voltage across the arrester increases as the time to the crest of the arrester discharge current decreases. Several models have been proposed to simulate this frequency-dependent characteristic. These models differ in the calculation and adjustment of their parameters. In the present paper, a simulation of metal (MOSA) dynamic behavior during fast electromagnetic transients on power systems is done. Some models proposed in the literature are used. The simulations are performed ATP version of EMTP to evaluate some metal oxide surge arrester models and verify their accuracy.",
+      link: "https://drive.google.com/file/d/19ybYgR9ZKS2adS-l1OpARqd9tgceA9a4/view?usp=sharing",
     },
     {
-      icon: Trophy,
-      title: "Research Internship",
-      date: "July 2024",
-      description: "Selected for AI/ML Research Internship at City, University of London utilising UK Cancer Research, and TracerX datasets (publication in progress).",
+      icon: FaSolarPanel,
+      title: "Assistant Engineer with Engreen Engineering Ltd.",
+      date: "December 2022",
+      description: "Huawei SUN2000-100KTL-M1 on-grid installation at a commercial solar power plant in Bangladesh, assisting in the design, installation, and commissioning of solar energy systems to promote sustainable energy solutions.",
     },
-    {
-      icon: Briefcase,
-      title: "Early Career Offer",
-      date: "Jan 2023",
-      description: "Offered a full-time role in the 3rd month of a 6-month internship based on exceptional performance and contributions at Webomates, Stamford, USA (remote).",
-    },
+    
   ];
 
   return (

@@ -14,79 +14,67 @@ const Resume = ({ onViewResume }: ResumeProps) => {
 
   const experiences = [
     {
-      date: "Sep 2025 - Present",
-      title: "ML Engineer (Independent Contractor)",
-      company: "Mercor",
-      link: "https://www.mercor.com/",
+      date: "March 2025 - Present",
+      title: "Student Assistant",
+      company: "Rheingedeck GmbH",
+      link: "https://www.rheingedeck.de/",
       points: [
-        "Contributing to Meta AI Research's expansion of OpenAI's MLE-bench by converting Kaggle and ML competition challenges into standardized Docker-containerized benchmark tasks.",
-        "Extended MLE-bench with recent datasets from leading ML conferences (NeurIPS, ICML, ICLR) spanning CV, NLP, time-series, and tabular domains.",
-        "Merged 2+ pull requests implementing task conversions with setup scripts, evaluation metrics, and reproducible environments.",
+        "Supported team with internal reporting, process catering service, and logistic assistances.",
+        "Helped ensure quality service and organization for smooth internal operations.",
+        "Supported event operations and logistics, working in a team to prepare venues, assist during peak service times, and maintain cleanliness and service standards according to company guidelines.",
       ],
     },
     {
-      date: "Mar 2025 - Present",
-      title: "Founding ML Research Engineer",
-      company: "Curify-AI",
-      link: "https://www.curify-ai.com/en/about",
+      date: "Mar 2022 - July 2024",
+      title: "Technical Support Engineer",
+      company: "King Sun Estate Pte. Ltd",
+      link: "https://www.kingsunestate.com/",
       points: [
-        "Implementing end-to-end video translation pipelines with transcription, translation, voice cloning, and lip-sync synchronization.",
-        "Built and deployed FastAPI microservices (ChatterBox multilingual TTS, WhisperX transcription, PaddleOCR) with Docker on Azure cloud.",
-        "Integrated state-of-the-art models including ElevenLabs and XTTS for voice cloning.",
+        "Developed and implemented data-driven solutions to monitor and optimize the performance of solar energy systems, contributing to increased sustainability and efciency of renewable energy installations.",
+        "Assisted customers with selecting and configuring solar energy solutions, including PV modules, hybrid inverters, and solar system components tailored to residential, commercial, and industrial needs.",
+        "Managed product inquiries, quotes, and technical support, ensuring timely responses and accurate information to help clients make informed purchasing decisions.",
+        "Analyzed operational data to identify patterns related to environmental factors, informing strategies for improved system reliability in the face of variable weather conditions.",
+        "Coordinated with interdisciplinary teams to integrate technical solutions aligned with the company’s commitment to renewable energy and climate resilience.",
       ],
     },
     {
-      date: "July-Oct 2024",
-      title: "Research Intern (AI / ML)",
-      company: "City, University of London",
-      link: "https://www.city.ac.uk/",
+      date: "May 2018 - Nov 2020",
+      title: "Executive (Ad Operations)",
+      company: "ServicEngine Limited",
+      link: "https://sebpo.com/",
       points: [
-        "Integrated clinical and phylogenetic data to enhance machine learning models for predicting survival in lung cancer patients.",
-        "Applied 5 different AI/ML model techniques to improve patient's survival prediction.",
-        "Presented findings at weekly research meetings and subsequently submitted results (publication in progress).",
+        "Supported clients by executing business process outsourcing tasks including customer support, back-office processing, and account management to ensure efficient and accurate operations.",
+        "Assisted in ad operations and media planning workflows, helping manage digital campaigns, optimize processes, and ensure programmatic support met client objectives.",
+        "Performed quality assurance and data analysis, reviewing workflows and outputs to maintain consistency, accuracy, and process governance for client deliverables.",
+        "Collaborated with cross-functional teams to provide creative and technical services, supporting project execution and troubleshooting within outsourcing engagements.",
+        "Analyzed large datasets using SQL and spreadsheets to track campaign performance, identify anomalies, and provide data-driven recommendations for optimization",
+        "Built and maintained performance dashboards and recurring reports, visualizing key metrics such as CTR, CPC, CPA, impressions, and conversions for internal and client stakeholders.",
       ],
     },
-    {
-      date: "Sep 2022 - Sep 2023",
-      title: "Artificial Intelligence (AI) Engineer",
-      company: "Webomates",
-      link: "https://www.webomates.com",
-      points: [
-        "Worked on AI Defect Predictor tool, which led to an 11x increase in release speed, a 73% reduction in production defects, and a 50% reduction in costs.",
-        "Deployed multiple NLP and computer vision models, which are currently operational in production.",
-        "Recognised for exceptional contributions and promoted by the 3rd month of a 6-month internship.",
-      ],
-    },
-    {
-      date: "Oct 2021 - Jan 2022",
-      title: "Machine Learning Engineer Intern",
-      company: "ResoluteAI Software",
-      link: "https://resoluteaisoftware.in/",
-      points: [
-        "Developed a U-NET Neural Network architecture to detect defects in fabric videos.",
-        "Organised a webinar, instructed, and led a team of interns in image annotation tasks.",
-      ],
-    },
+
   ];
 
   const education = [
     {
-      date: "2023-2024",
-      title: "Master of Science in Artificial Intelligence (MSc AI)",
-      institution: "City, University of London",
-      grade: "Grade: Merit (68.5)",
+      date: "2024-ongoing",
+      title: "Master of Science in Computer Simulation in Science (MSc in CSIS)",
+      institution: "University of Wuppertal, Germany",
+      description: "Focus: Numerical methods, data analysis, statistical modeling, Neural Network, Deep Learning, RNN, GNN, Simulation, etc",
+      
     },
     {
-      date: "2019-2021",
-      title: "Bachelor of Science in Information Technology (BSc IT)",
-      institution: "University of Mumbai",
-      grade: "Grade: 8.5 CGPA",
+      date: "2012-2017",
+      title: "Bachelor of Science in Electrical & Electronic Engineering, (BSc in EEE)",
+      institution: "Daffodil International University",
+      thesis: "Thesis: Simulation and Analysis of Surge Arrester using EMTP",
+      link: "DOI: 10.13140/RG.2.2.25154.45767"
+      
     },
     {
-      date: "2016-2019",
-      title: "Diploma in Mechanical Engineering",
-      institution: "Maharashtra State Board",
-      grade: "Grade: Distinction",
+      date: "2009-2011",
+      title: "Higher Secondary Certificate (HSC)",
+      institution: "Govt. Science College, Dhaka",
+      
     },
   ];
 
@@ -105,7 +93,7 @@ const Resume = ({ onViewResume }: ResumeProps) => {
             My <span className="gradient-text">Resume</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            With nearly 2 years of experience in developing and deploying AI solutions. Specializing in machine learning, computer vision, and NLP.
+            Engineer with 4+ years in technical support, solar project management, and digital campaign execution. Skilled in MATLAB, AutoCAD, PVsyst, Python, and C++. Currently pursuing an M.Sc. in Computer Simulation in Science, with a focus on leveraging technical and analytical skills to drive engineering solutions. 
           </p>
         </motion.div>
 

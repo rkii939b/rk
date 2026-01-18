@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useScrollReveal, scrollVariants } from "@/hooks/use-scroll-reveal";
-import { MapPin, Phone, Mail, Linkedin, Github } from "lucide-react";
+import { MapPin, Phone, Mail, Linkedin, Github, Instagram } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import InteractiveElement from "@/components/InteractiveElement";
 
@@ -11,19 +11,19 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      value: "London, United Kingdom",
+      value: "Oberer Grifflenberg, Wuppertal, Germany",
     },
     {
       icon: Phone,
       title: "Contact Number",
-      value: "+44 777 487 4773",
-      link: "tel:+447774874773",
+      value: "+4915737847622",
+      link: "tel:+4915737847622",
     },
     {
       icon: Mail,
       title: "Email Address",
-      value: "rafa.works313@gmail.com",
-      link: "mailto:rafa.works313@gmail.com",
+      value: "rkii939b@gmail.com",
+      link: "mailto:rkii939b@gmail.com",
     },
   ];
 
@@ -31,17 +31,17 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      link: "https://www.linkedin.com/in/raafi-riyaz-bb2954202/",
+      link: "https://www.linkedin.com/in/mohammad-robiul-kabir-071a81138/",
     },
     {
-      icon: FaXTwitter,
-      label: "Twitter",
-      link: "https://x.com/rafipatel_rafi",
+      icon: Instagram,
+      label: "Instagram",
+      link: "https://www.instagram.com/poseidon96969/",
     },
     {
       icon: Github,
       label: "GitHub",
-      link: "https://github.com/rafipatel",
+      link: "https://github.com/rkii939b",
     },
     {
     icon: () => <span className="text-2xl">🤗</span>, // Emoji for Hugging Face
