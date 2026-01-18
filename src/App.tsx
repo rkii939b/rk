@@ -23,7 +23,7 @@ const App = () => (
         {/* ✅ Add the animated background here */}
         <AnimatedBackground />
 
-        <BrowserRouter basename="/rk/">
+          <BrowserRouter basename="/rk">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="*" element={<NotFound />} />
